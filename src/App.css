@@ -1,12 +1,45 @@
+.bg-test {
+    background-color: black;
+}
+
 #trade {
     background-image: url("../public/img/Background.png");
     background-repeat: no-repeat;
     background-position: right top;
-    background-size: contain;
+    background-size: 70%;
     height: 100vh;
 }
 
 .trade-upper-text {
     font-size: 1.25rem;
     color: #F7A501;
+    margin-top: 110px !important;
+}
+
+.trade-text-main {
+    font-size: 3rem;
+    max-width: 630px;
+}
+
+.trade-down-text {
+    font-size: 1.2rem;
+    max-width: 500px;
+}
+
+.header-button-wrapper {
+    margin-top: 90px !important;
+}
+
+.header-button {
+    border-radius: 40px !important;
+    color: black !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    background-color: #F7A501 !important;
+    width: 220px !important;
+}
+
+.header-button-v2 {
+    background-color: transparent !important;
+    color: white !important;
 }
