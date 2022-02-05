@@ -1,0 +1,11 @@
+.header-nav-item {
+    color: white !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-nav-item > a:hover {
+    color: white !important;
+    font-size: 18px;
+    font-weight: bold;
+}

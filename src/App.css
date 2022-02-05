@@ -1,18 +1,12 @@
-.header-nav-item {
-    color: white !important;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.header-nav-item > a:hover {
-    color: white !important;
-    font-size: 18px;
-    font-weight: bold;
-}
-
 #trade {
     background-image: url("../public/img/Background.png");
     background-repeat: no-repeat;
     background-position: right top;
+    background-size: contain;
     height: 100vh;
+}
+
+.trade-upper-text {
+    font-size: 1.25rem;
+    color: #F7A501;
 }
