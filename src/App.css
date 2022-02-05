@@ -15,3 +15,32 @@
     background-color: transparent !important;
     color: white !important;
 }
+
+.header-button-v3 {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.join-us-text {
+    font-size: 20px;
+}
+
+.join-us-card {
+    margin-top: 20px;
+    padding: 40px;
+    background: #F7A501;
+    border-radius: 40px;
+    height: 450px;
+}
+
+.pe-6 {
+    padding-right: 4.5rem !important;
+}
+
+.ytp-chrome-top {
+    display: none !important;
+}
+
+.ytp-show-cards-title {
+    display: none !important;
+}

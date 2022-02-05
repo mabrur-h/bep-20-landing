@@ -9,7 +9,7 @@ export const TradeStatsComponent = () => {
                 <Col className="stats-row-list d-flex align-items-center justify-content-center">
                     <div className="d-flex flex-column align-items-center text-center">
                         <p className="text-white stats-number-upper">Transactions per second</p>
-                        <p className="text-white fw-bold stats-number-text">1,306</p>
+                        <p className="text-white fw-bold stats-number-text">1,223</p>
                     </div>
                 </Col>
                 <Col className="stats-row-list d-flex align-items-center justify-content-center">
