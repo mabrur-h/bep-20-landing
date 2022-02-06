@@ -45,3 +45,30 @@
     position: relative;
     top: -40px;
 }
+
+@media screen and (max-width: 1098px) {
+
+   #stats .trade-stats-list {
+       margin-right: 0 !important;
+       margin: 0 10px !important;
+   }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #stats .row {
+        margin-right: 0 !important;
+        margin: 0 10px !important;
+        padding: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+
+    #stats .container-fluid {
+        margin-left: 0px !important;
+        margin-right: 20px !important;
+    }
+}

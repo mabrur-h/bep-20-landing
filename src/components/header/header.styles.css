@@ -26,3 +26,92 @@
 .header-button-wrapper {
     margin-top: 90px !important;
 }
+
+@media screen and (max-width: 1200px) {
+    #navbarScroll > .navbar-nav {
+        padding-right: 0 !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    #navbarScroll > .header-nav-item {
+        margin: 0 5px !important;
+    }
+
+    .navbar-nav-scroll {
+        max-height: 200px !important;
+    }
+
+    .trade-upper-text {
+        color: white !important;
+    }
+}
+
+@media screen and (max-width: 1098px) {
+
+    #trade .row {
+        width: 1400px !important;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .navbar-nav-scroll {
+        max-height: 200px !important;
+    }
+
+    #trade .row {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    #trade .row {
+        margin: 0 10px !important;
+        padding: 0 10px !important;
+    }
+
+    .header-button-wrapper {
+        flex-direction: column;
+    }
+
+    .header-button {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+
+
+
+    .header-button-wrapper .header-button-v2 {
+        margin-top: 20px !important;
+        margin-left: 0px !important;
+    }
+
+    .header-button-wrapper .header-button-v2 div {
+        justify-content: center !important;
+    }
+
+    .header-button-wrapper .header-button-v2 div span {
+        margin-left: 20px;
+    }
+
+    #trade .container-fluid {
+        margin-left: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .container-fluid {
+        padding: 0 0 !important;
+        margin: 0 20px !important;
+    }
+
+    #navbarScroll > .header-nav-item {
+        margin: 0 5px !important;
+    }
+}

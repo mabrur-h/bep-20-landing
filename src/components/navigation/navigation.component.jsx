@@ -48,12 +48,15 @@ window.onscroll = function () {
     } else {
         navbar.classList.remove('sticky')
     }
+    if (window.innerWidth < 980) {
+        navbar.classList.add('sticky')
+    }
 }
 
 function navbarClick () {
     let navbar = document.getElementById('navbar')
     let navHeight = document.getElementById('navbar').offsetHeight
-    if (navHeight > window.pageYOffset) {
+    if (navHeight >= window.pageYOffset) {
         navbar.classList.toggle('sticky')
     }
 }

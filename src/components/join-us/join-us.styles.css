@@ -148,3 +148,101 @@
     z-index: 1;
     border-radius: 50px;
 }
+
+
+.player-up-card {
+    position: relative;
+    z-index: 10;
+}
+
+@media screen and (max-width: 1098px) {
+    #join-us .join-us-card {
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .join-us-player {
+        top: 50% !important;
+        position: relative;
+    }
+    #join-us .join-us-player img {
+        height: auto !important;
+    }
+
+    .play-btn-wrapper {
+        top: 0 !important;
+        left: 42%;
+    }
+
+    .play-btn {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .join-us-player {
+        top: 50% !important;
+        position: relative;
+    }
+    #join-us .join-us-player img {
+        height: auto !important;
+    }
+
+    .play-btn-wrapper {
+        top: 0 !important;
+        left: 42%;
+    }
+
+    .play-btn {
+        width: 90px;
+        height: 90px;
+    }
+
+    #join-us .row {
+        margin: 0!important;
+        padding: 0 !important;
+    }
+
+    #join-us .join-us-card-text {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #join-us .join-us-player-wrapper {
+        padding: 10px 10px !important;
+        margin: 10px 0 !important;
+        max-height: 500px;
+    }
+
+    #join-us .join-us-player .image-overlay {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-height: 500px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #join-us .player-up-card {
+        padding-right: 30px !important;
+    }
+
+    #join-us .join-us-player-wrapper {
+        padding: 10px 10px !important;
+        margin: 10px 0 !important;
+        max-height: 300px;
+    }
+
+    #join-us .join-us-player .image-overlay {
+        padding: 0 !important;
+        margin: 0 !important;
+        max-height: 300px;
+    }
+
+    .play-btn-wrapper {
+        top: -40px !important;
+        left: 42%;
+    }
+}

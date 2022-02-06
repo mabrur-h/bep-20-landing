@@ -1,19 +1,24 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import './fast-speed.styles.css'
 import Triangle from "../../icons/triangle.svg";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 export const FastSpeedComponent = () => {
+    useEffect(() => {
+        Aos.init({duration: 1500});
+    }, [])
     return (
         <section id="fast-speed" className="py-5">
             <Container fluid className="py-5">
                 <div className="row align-items-center justify-content-center my-5 py-5">
-                    <div className="col-6 d-flex align-items-center justify-content-center">
+                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
                         <div className="fast-speed-img">
                             <img src="./img/round-shape.png" alt="round" width="800" />
                         </div>
                     </div>
-                    <div className="col-6 d-flex align-items-center justify-content-center">
+                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-left">
                         <div className="d-flex align-items-center justify-content-center flex-column w-75">
                             <div className="mb-5 pb-5">
                                 <h2 className="display-1 fw-bold text-white info-text-title pb-5">Fast, forever</h2>

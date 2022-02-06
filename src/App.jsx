@@ -18,6 +18,7 @@ import YoutubeIcon from './icons/youtube.svg'
 import {ManageTokenComponent} from "./components/manage-token/manage-token.component";
 import {FooterComponent} from "./components/footer/footer.component";
 
+
 class App extends Component {
     // constructor(props) {
     //   super(props);

@@ -34,14 +34,28 @@
 .trade-stats-list {
     max-width: 250px;
     position: relative;
-    background: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0) 15%, rgba(247,165,1,1) 100%);
+    background-image: linear-gradient(0deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0) 15%, rgba(247,165,1,1) 100%);
     border-radius: 45px;
     padding: 2px !important;
     min-height: 300px;
+    transition: background-color 2s ease;
 }
 
-.trade-stats-list:hover {
-    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0) 15%, rgba(247,165,1,1) 100%);
+.trade-stats-list:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0) 15%, rgba(247,165,1,1) 100%);
+    opacity: 0;
+    transition: all 3s ease-in-out;
+    border-radius: 45px;
+}
+
+.trade-stats-list:hover:after {
+    opacity: 1;
 }
 
 .trade-stats-wrapper {

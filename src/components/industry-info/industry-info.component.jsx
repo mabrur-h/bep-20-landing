@@ -1,25 +1,30 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import './industry-info.styles.css'
 import Triangle from "../../icons/triangle.svg";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 export const IndustryInfoComponent = () => {
+    useEffect(() => {
+        Aos.init({duration: 1500});
+    }, [])
     return (
         <section id="industry-info">
             <Container fluid>
-                <div className="d-flex flex-column justify-content-center align-items-center py-5 mx-2 px-2">
+                <div className="d-flex flex-column justify-content-center align-items-center py-5 mx-2 px-2" data-aos="fade-up">
                     <h2 className="display-2 fw-normal text-center text-white info-text-title">
                         Take full control of your crypto
                     </h2>
                     <p className="text-white text-center info-text-upper mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, adipisci consequatur cupiditate expedita harum natus perferendis repellat sit suscipit veritatis!</p>
                 </div>
                 <div className="row align-items-center justify-content-center my-5 py-5">
-                    <div className="col-6 d-flex align-items-center justify-content-center">
+                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
                         <div className="fast-speed-img">
                             <img src="./img/Rectangle1.png" alt="round" width="800" />
                         </div>
                     </div>
-                    <div className="col-6 d-flex align-items-center justify-content-center">
+                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-left">
                         <div className="d-flex align-items-center justify-content-center flex-column w-75">
                             <div className="mb-5 pb-5">
                                 <h2 className="display-1 fw-bold text-white info-text-title pb-5">Built on EHT. Owned by you.</h2>
@@ -38,12 +43,12 @@ export const IndustryInfoComponent = () => {
                     </div>
                 </div>
                 <div className="row flex-row-reverse align-items-center justify-content-center my-5 py-5">
-                    <div className="col-6 d-flex align-items-center justify-content-center mt-5 pt-5">
+                    <div className="col-6 d-flex align-items-center justify-content-center mt-5 pt-5" data-aos="fade-left">
                         <div className="fast-speed-img">
                             <img src="./img/Rectangle2.png" alt="round" width="800" />
                         </div>
                     </div>
-                    <div className="col-6 d-flex align-items-center justify-content-center">
+                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
                         <div className="w-75">
                             <h2 className="display-3 fw-bold text-white info-text-title pb-5">Take full advantage of everything Layer 2 has to offer</h2>
                             <ul className="industry-info-list">
