@@ -7,6 +7,8 @@ import {TradeStatsComponent} from "./components/trade-stats/trade-stats.componen
 import Logo from './logo.svg'
 import Triangle from "./icons/triangle-2.svg";
 import {JoinUsComponent} from "./components/join-us/join-us.component";
+import LeverageIcon from './icons/Group.svg'
+import {CryptoInfoComponent} from "./components/crypto-info/crypto-info.component";
 
 class App extends Component {
     // constructor(props) {
@@ -20,6 +22,7 @@ class App extends Component {
                 <HeaderComponent />
                 <TradeStatsComponent />
                 <JoinUsComponent />
+                <CryptoInfoComponent />
             </div>
         );
     }

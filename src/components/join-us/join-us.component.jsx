@@ -6,8 +6,8 @@ import Triangle from "../../icons/triangle-2.svg";
 
 export const JoinUsComponent = () => {
     return (
-        <section id="join-us" className="my-5">
-            <Container fluid className="my-5 py-3">
+        <section id="join-us" className="mt-5">
+            <Container fluid className="mt-5 mb-2 py-3">
                 <Row className="mx-5 px-5 my-5 py-5">
                     <Col>
                         <h2 className="display-5 fw-bold text-white">Join The Fastest Growing Ecosystem</h2>
