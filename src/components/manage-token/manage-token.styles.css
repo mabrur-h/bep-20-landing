@@ -1,0 +1,64 @@
+
+#manage-token .accordion {
+    width: 65%;
+}
+
+#manage-token .accordion-item {
+    margin: 40px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+#manage-token .accordion-button {
+    font-size: 26px;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(30, 30, 30);
+}
+
+#manage-token .accordion-button:not(.collapsed)::after {
+    background-image: url("/public/img/arrow-down.png");
+}
+
+#manage-token .accordion-button::after {
+    background-image: url("/public/img/arrow-down.png");
+}
+
+#manage-token .accordion-button:active {
+    border-color: #F7A501 !important;
+}
+
+#manage-token .accordion-button:focus {
+    border-color: #F7A501 !important;
+    box-shadow: 0 0 10px 0.1rem rgb(247, 165, 1);
+}
+
+#manage-token .accordion-button:hover {
+    box-shadow: 0 0 10px 0.1rem rgb(247, 165, 1);
+    transition: .5s;
+}
+
+.bep-20-logo {
+    position: relative;
+    top: -2px;
+    padding-left: 8px;
+}
+
+.signup-link {
+    color: #F7A501;
+    text-underline: #F7A501;
+}
+
+.signup-link:hover {
+    color: #ffffff;
+    text-underline: #ffffff;
+    transition: .5s;
+}
+
+.signup-link-wrapper {
+    font-size: 20px !important;
+}

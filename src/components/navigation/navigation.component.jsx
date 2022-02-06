@@ -4,12 +4,12 @@ import {Button, Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
 import Logo from "../../logo.svg";
 
 export const NavigationComponent = () => {
-    return (<Navbar variant="dark" expand="lg" fixed="top">
+    return (<Navbar variant="dark" expand="lg" fixed="top" id="navbar">
         <Container fluid className="mx-5 my-2 py-3">
             <Navbar.Brand href="#">
                 <img src={Logo} width="180" alt="Bep-20"/>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Toggle onClick={navbarClick} aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav
                     className="me-auto my-5 ms-5 px-5 my-lg-0"
@@ -22,12 +22,12 @@ export const NavigationComponent = () => {
                     <Nav.Link href="#insights" className="mx-4 header-nav-item">Insights</Nav.Link>
                 </Nav>
                 <Nav
-                    className="my-4 ms-5 px-2 my-lg-0"
+                    className="my-4 ms-5 px-2 my-lg-0 d-flex align-items-center"
                     style={{ maxHeight: '140px' }}
                     navbarScroll
                 >
-                    <Button className="header-button">
-                        <p className="px-2 m-0 mx-3">Join Us</p>
+                    <Button className="header-button btn-warning">
+                        <p className="m-0 mx-3">Join Us</p>
                     </Button>
                     <NavDropdown title="EN" id="basic-nav-dropdown" align="end" className="ms-3">
                         <NavDropdown.Item href="#action/3.1">ES</NavDropdown.Item>
@@ -37,4 +37,23 @@ export const NavigationComponent = () => {
             </Navbar.Collapse>
         </Container>
     </Navbar>)
+}
+
+window.onscroll = function () {
+    let pageOffset
+    let navbar = document.getElementById('navbar')
+    let navHeight = document.getElementById('navbar').offsetHeight
+    if (window.pageYOffset > navHeight) {
+        navbar.classList.add('sticky')
+    } else {
+        navbar.classList.remove('sticky')
+    }
+}
+
+function navbarClick () {
+    let navbar = document.getElementById('navbar')
+    let navHeight = document.getElementById('navbar').offsetHeight
+    if (navHeight > window.pageYOffset) {
+        navbar.classList.toggle('sticky')
+    }
 }
