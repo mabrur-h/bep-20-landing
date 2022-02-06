@@ -10,6 +10,7 @@ import {JoinUsComponent} from "./components/join-us/join-us.component";
 import LeverageIcon from './icons/Group.svg'
 import {CryptoInfoComponent} from "./components/crypto-info/crypto-info.component";
 import {FastSpeedComponent} from "./components/fast-speed/fast-speed.component";
+import {IndustryInfoComponent} from "./components/industry-info/industry-info.component";
 
 class App extends Component {
     // constructor(props) {
@@ -25,6 +26,7 @@ class App extends Component {
                 <JoinUsComponent />
                 <CryptoInfoComponent />
                 <FastSpeedComponent />
+                <IndustryInfoComponent />
             </div>
         );
     }
