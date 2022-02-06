@@ -1,7 +1,7 @@
 import React from "react";
 import './header.styles.css'
 import {Button, Container} from "react-bootstrap";
-import Triangle from "../../triangle.svg";
+import Triangle from "../../icons/triangle.svg";
 
 export const HeaderComponent = () => {
     return (
