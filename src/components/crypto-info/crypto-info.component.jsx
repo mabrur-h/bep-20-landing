@@ -2,6 +2,12 @@ import React, {useEffect} from "react";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import './crypto-info.styles.css'
 import LeverageIcon from "../../icons/Group.svg";
+import CompoundIcon from "../../icons/Group 1230.svg"
+import TransactionIcon from "../../icons/Group 1232.svg"
+import BestPriceIcon from '../../icons/Vector 6.svg'
+import LowSlippageIcon from '../../icons/Group 1229.svg'
+import ComposableIcon from '../../icons/Group 1231.svg'
+
 import Aos from "aos";
 import "aos/dist/aos.css"
 
@@ -30,16 +36,16 @@ export const CryptoInfoComponent = () => {
                     <Col className="crypto-info-list d-flex align-items-center justify-content-center me-5">
                         <div className="crypto-info-wrapper w-100">
                             <div className="d-flex flex-column align-items-center text-center crypto-info-item">
-                                <img src={LeverageIcon} alt="icon" width="80" />
-                                <p className="text-white crypto-info-text mt-5 pt-4">Leverage up to 30x</p>
+                                <img src={CompoundIcon} alt="icon" width="80" />
+                                <p className="text-white crypto-info-text mt-5 pt-4">Compound With High-Yield Pools</p>
                             </div>
                         </div>
                     </Col>
                     <Col className="crypto-info-list d-flex align-items-center justify-content-center me-5">
                         <div className="crypto-info-wrapper w-100">
                             <div className="d-flex flex-column align-items-center text-center crypto-info-item">
-                                <img src={LeverageIcon} alt="icon" width="80" />
-                                <p className="text-white crypto-info-text mt-5 pt-4">Leverage up to 30x</p>
+                                <img src={TransactionIcon} alt="icon" width="80" />
+                                <p className="text-white crypto-info-text mt-5 pt-4">Super Cheap Transactions</p>
                             </div>
                         </div>
                     </Col>
@@ -49,24 +55,24 @@ export const CryptoInfoComponent = () => {
                     <Col className="crypto-info-list d-flex align-items-center justify-content-center me-5">
                         <div className="crypto-info-wrapper w-100">
                             <div className="d-flex flex-column align-items-center text-center crypto-info-item">
-                                <img src={LeverageIcon} alt="icon" width="80" />
-                                <p className="text-white crypto-info-text mt-5 pt-4">Leverage up to 30x</p>
+                                <img src={BestPriceIcon} alt="icon" width="80" />
+                                <p className="text-white crypto-info-text mt-5 pt-4">Best Price Execution On The Market</p>
                             </div>
                         </div>
                     </Col>
                     <Col className="crypto-info-list d-flex align-items-center justify-content-center me-5">
                         <div className="crypto-info-wrapper w-100">
                             <div className="d-flex flex-column align-items-center text-center crypto-info-item">
-                                <img src={LeverageIcon} alt="icon" width="80" />
-                                <p className="text-white crypto-info-text mt-5 pt-4">Leverage up to 30x</p>
+                                <img src={LowSlippageIcon} alt="icon" width="80" />
+                                <p className="text-white crypto-info-text mt-5 pt-4">Low Slippage And Fees Even On Large Trades</p>
                             </div>
                         </div>
                     </Col>
                     <Col className="crypto-info-list d-flex align-items-center justify-content-center me-5">
                         <div className="crypto-info-wrapper w-100">
                             <div className="d-flex flex-column align-items-center text-center crypto-info-item">
-                                <img src={LeverageIcon} alt="icon" width="80" />
-                                <p className="text-white crypto-info-text mt-5 pt-4">Leverage up to 30x</p>
+                                <img src={ComposableIcon} alt="icon" width="80" />
+                                <p className="text-white crypto-info-text mt-5 pt-4">Fully Composable With Other DApps</p>
                             </div>
                         </div>
                     </Col>
