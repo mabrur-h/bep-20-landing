@@ -13,7 +13,7 @@ export const FooterComponent = () => {
             <Container fluid className="mx-2 px-2">
                 <div>
                     <Row className="mx-2 px-2">
-                        <Col className="d-flex align-items-center flex-column">
+                        <Col md={3} className="d-flex align-items-center flex-column">
                             <div className="footer-logo">
                                 <a href="#" className="d-block">
                                     <img src={Logo} alt="bep-20" width="170" />
@@ -34,100 +34,96 @@ export const FooterComponent = () => {
                                 </li>
                             </ul>
                         </Col>
-                        <Col className="d-flex align-items-center flex-column">
-                            <ul className="footer-list list-unstyled">
-                                <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
-                                    Partners
-                                </h4>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Valued Partners
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Grants
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Join Us
-                                    </a>
-                                </li>
-                            </ul>
+                        <Col md={9} className="site-footer-row">
+                            <Row className="d-flex justify-content-between">
+                                <ul className="col-6 col-md-6 col-lg-3 footer-list list-unstyled">
+                                    <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
+                                        Partners
+                                    </h4>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Valued Partners
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Grants
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Join Us
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul className="col-6 col-md-6 col-lg-3 footer-list list-unstyled">
+                                    <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
+                                        Resources
+                                    </h4>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            In the news
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Developers
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Pricing
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Bug Bounty
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul className="col-6 col-md-6 col-lg-3 footer-list list-unstyled">
+                                    <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
+                                        Solutions
+                                    </h4>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Decentralized Finance
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            SEC-Registred Offerings
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Security Tokens
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul className="col-6 col-md-6 col-lg-3 footer-list list-unstyled">
+                                    <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
+                                        Company
+                                    </h4>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            About us
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Leadership
+                                        </a>
+                                    </li>
+                                    <li className="footer-item mb-4">
+                                        <a href="#" className="footer-item-link">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </Row>
                         </Col>
-                        <Col className="d-flex align-items-center justify-content-center flex-column">
-                            <ul className="footer-list list-unstyled">
-                                <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
-                                    Resources
-                                </h4>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        In the news
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Developers
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Pricing
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Bug Bounty
-                                    </a>
-                                </li>
-                            </ul>
-                        </Col>
-                        <Col className="d-flex align-items-center justify-content-center flex-column">
 
-                            <ul className="footer-list list-unstyled">
-                                <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
-                                    Solutions
-                                </h4>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Decentralized Finance
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        SEC-Registred Offerings
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Security Tokens
-                                    </a>
-                                </li>
-                            </ul>
-                        </Col>
-                        <Col className="d-flex align-items-center justify-content-center flex-column">
-                            <ul className="footer-list list-unstyled">
-                                <h4 className="text-uppercase fw-normal mb-5 footer-list-title">
-                                    Company
-                                </h4>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        About us
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Leadership
-                                    </a>
-                                </li>
-                                <li className="footer-item mb-4">
-                                    <a href="#" className="footer-item-link">
-                                        Contact
-                                    </a>
-                                </li>
-                            </ul>
-                        </Col>
                     </Row>
                 </div>
                 <div className="mx-2 px-2 w-100">

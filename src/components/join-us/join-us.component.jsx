@@ -1,15 +1,20 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {Button, Col, Container, Row} from "react-bootstrap";
 import './join-us.styles.css'
 import Logo from "../../logo.svg";
 import Triangle from "../../icons/triangle-2.svg";
 import Aos from "aos";
 import "aos/dist/aos.css"
+import "react-modal-video/scss/modal-video.scss"
+import ModalVideo from "react-modal-video";
 
 export const JoinUsComponent = () => {
     useEffect(() => {
         Aos.init({duration: 1500});
     }, [])
+
+    const [isOpen, setOpen] = useState(false)
+
     return (
         <section id="join-us" className="mt-5">
             <Container fluid className="mt-5 mb-2 py-3">
@@ -55,7 +60,11 @@ export const JoinUsComponent = () => {
                             <img src="./img/player-overlay.jpg" alt="overlay" className="player-image-overlay"/>
                         </div>
                         <div className="position-absolute play-btn-wrapper">
-                            <button className="play-btn" href="#"></button>
+                            <React.Fragment>
+                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
+
+                                <button className="play-btn" onClick={()=> setOpen(true)}></button>
+                            </React.Fragment>
                         </div>
                     </div>
                 </div>

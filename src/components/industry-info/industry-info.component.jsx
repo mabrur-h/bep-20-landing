@@ -19,14 +19,14 @@ export const IndustryInfoComponent = () => {
                     <p className="text-white text-center info-text-upper mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, adipisci consequatur cupiditate expedita harum natus perferendis repellat sit suscipit veritatis!</p>
                 </div>
                 <div className="row align-items-center justify-content-center my-5 py-5">
-                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
+                    <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
                         <div className="fast-speed-img">
                             <img src="./img/Rectangle1.png" alt="round" width="800" />
                         </div>
                     </div>
-                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-left">
-                        <div className="d-flex align-items-center justify-content-center flex-column w-75">
-                            <div className="mb-5 pb-5">
+                    <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-left">
+                        <div className="d-flex align-items-center justify-content-center flex-column w-75 industry-info-row">
+                            <div className="mb-lg-5 pb-lg-5">
                                 <h2 className="display-1 fw-bold text-white info-text-title pb-5">Built on EHT. Owned by you.</h2>
                                 <p className="fast-speed-text pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa error labore magnam maiores ratione veritatis vitae? Aperiam doloremque expedita facere?</p>
                                 <p className="fast-speed-text pt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa error labore magnam maiores ratione veritatis vitae? Aperiam doloremque expedita facere?</p>
@@ -42,14 +42,14 @@ export const IndustryInfoComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row flex-row-reverse align-items-center justify-content-center my-5 py-5">
-                    <div className="col-6 d-flex align-items-center justify-content-center mt-5 pt-5" data-aos="fade-left">
+                <div className="row flex-row-reverse align-items-center justify-content-center my-lg-5 py-lg-5">
+                    <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center mt-5 pt-5" data-aos="fade-left">
                         <div className="fast-speed-img">
                             <img src="./img/Rectangle2.png" alt="round" width="800" />
                         </div>
                     </div>
-                    <div className="col-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
-                        <div className="w-75">
+                    <div className="col-12 col-lg-6 d-flex align-items-center justify-content-center" data-aos="fade-right">
+                        <div className="w-75 industry-info-row">
                             <h2 className="display-3 fw-bold text-white info-text-title pb-5">Take full advantage of everything Layer 2 has to offer</h2>
                             <ul className="industry-info-list">
                                 <li className="industry-list-item d-flex align-items-start">

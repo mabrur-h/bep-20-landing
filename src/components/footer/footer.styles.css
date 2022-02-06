@@ -46,3 +46,19 @@
     color: #c9c9c9;
     letter-spacing: 1px;
 }
+
+
+@media screen and (max-width: 620px) {
+    .site-footer-row {
+        text-align: center;
+        margin-top: 50px !important;
+    }
+
+    .footer-upper {
+        display: flex;
+        text-align: center;
+        padding: 0 !important;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -2,3 +2,10 @@
     font-size: 24px;
     color: white;
 }
+
+@media screen and (max-width: 780px) {
+    #fast-speed {
+        padding-bottom: 0 !important;
+    }
+
+}

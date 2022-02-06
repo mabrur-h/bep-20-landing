@@ -62,3 +62,23 @@
 .signup-link-wrapper {
     font-size: 20px !important;
 }
+
+
+@media screen and (max-width: 680px) {
+
+    #manage-token .accordion {
+        width: 100% !important;
+    }
+
+    #manage-token .info-text-upper {
+        width: 90%;
+    }
+
+    #manage-token .accordion-button p {
+        font-size: 22px !important;
+    }
+
+    #manage-token .header-button {
+        margin-right: 0 !important;
+    }
+}

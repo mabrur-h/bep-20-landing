@@ -53,6 +53,40 @@ export const ManageTokenComponent = () => {
                             est laborum.
                         </Accordion.Body>
                     </Accordion.Item>
+                    <Accordion.Item eventKey="2" data-aos="fade-up">
+                        <Accordion.Header>
+                            <div className="d-flex align-items-center">
+                                <span className="d-flex align-items-center justify-content-center me-4 pe-2"><img src={FacebookIcon} alt="tg"/></span>
+                                <p className="m-0">Adminstrative Tools</p>
+                            </div>
+                        </Accordion.Header>
+                        <Accordion.Body className="p-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                            est laborum.
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="3" data-aos="fade-up">
+                        <Accordion.Header>
+                            <div className="d-flex align-items-center">
+                                <span className="d-flex align-items-center justify-content-center me-4 pe-2"><img src={FacebookIcon} alt="tg"/></span>
+                                <p className="m-0">Adminstrative Tools</p>
+                            </div>
+                        </Accordion.Header>
+                        <Accordion.Body className="p-5">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                            est laborum.
+                        </Accordion.Body>
+                    </Accordion.Item>
                 </Accordion>
                 <div className="d-flex flex-column justify-content-center align-items-center py-4 mx-2 px-2" data-aos="fade-up">
                     <h2 className="display-5 fw-bold text-center text-white info-text-title">

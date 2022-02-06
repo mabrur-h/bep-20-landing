@@ -233,6 +233,8 @@
         padding: 10px 10px !important;
         margin: 10px 0 !important;
         max-height: 300px;
+        padding-right: 30px !important;
+        padding-left: 0 !important;
     }
 
     #join-us .join-us-player .image-overlay {
@@ -244,5 +246,9 @@
     .play-btn-wrapper {
         top: -40px !important;
         left: 42%;
+    }
+
+    #join-us .player-up-card {
+        padding-left: 0 !important;
     }
 }

@@ -12,13 +12,13 @@ export const CryptoInfoComponent = () => {
     return (
         <section id="crypto-info">
             <Container fluid>
-                <div className="d-flex flex-column justify-content-center align-items-center" data-aos="fade-up">
+                <div className="d-flex flex-column justify-content-center align-items-center crypto-info-title-wrapper" data-aos="fade-up">
                     <h2 className="display-2 fw-normal text-center text-white info-text-title">
                         Take full control of your crypto
                     </h2>
                     <p className="text-white text-center info-text-upper mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, adipisci consequatur cupiditate expedita harum natus perferendis repellat sit suscipit veritatis!</p>
                 </div>
-                <Row className="mx-5 px-5 my-5 py-5 d-flex" data-aos="fade-up">
+                <Row className="mx-5 px-5 my-5 py-5 d-flex crypto-info-row" data-aos="fade-up">
                     <Col className="crypto-info-list d-flex align-items-center justify-content-center me-5">
                         <div className="crypto-info-wrapper w-100">
                             <div className="d-flex flex-column align-items-center text-center crypto-info-item">
@@ -44,8 +44,8 @@ export const CryptoInfoComponent = () => {
                         </div>
                     </Col>
                 </Row>
-                <span className="d-block py-4" />
-                <Row className="mx-5 px-5 my-5 py-5 d-flex" data-aos="fade-up">
+                <span className="d-none d-lg-block py-4" />
+                <Row className="mx-5 px-5 my-5 py-5 d-flex crypto-info-row" data-aos="fade-up">
                     <Col className="crypto-info-list d-flex align-items-center justify-content-center me-5">
                         <div className="crypto-info-wrapper w-100">
                             <div className="d-flex flex-column align-items-center text-center crypto-info-item">
