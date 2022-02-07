@@ -12,7 +12,7 @@ export const ManageTokenComponent = () => {
     return (
         <section id="manage-token" className="py-5">
             <Container fluid className="py-5 d-flex flex-column align-items-center justify-content-center">
-                <div className="d-flex flex-column justify-content-center align-items-center py-5 mx-2 px-2" data-aos="fade-up">
+                <div className="d-flex flex-column justify-content-center align-items-center py-5 mx-2 px-2 manage-token-row" data-aos="fade-up">
                     <h2 className="display-2 fw-normal text-center text-white info-text-title">
                         Manage Your Token Sale
                     </h2>

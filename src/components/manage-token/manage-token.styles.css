@@ -82,3 +82,55 @@
         margin-right: 0 !important;
     }
 }
+
+
+@media screen and (max-width: 480px) {
+
+    #manage-token {
+        padding-top: 0 !important;
+    }
+
+    #manage-token .container-fluid {
+        padding-top: 0 !important;
+    }
+
+    #manage-token .info-text-title {
+        font-size: 28px !important;
+    }
+
+    #manage-token .manage-token-row {
+        padding-bottom: 0 !important;
+    }
+
+}
+
+
+@media screen and (max-width: 419px) {
+    #manage-token .container-fluid {
+        margin-left: 0 !important;
+    }
+
+    #manage-token .accordion-header p {
+        font-size: 18px !important;
+    }
+
+    #manage-token .accordion-button {
+        padding: 20px !important;
+    }
+
+    #manage-token .accordion-item {
+        margin: 20px 0 !important;
+    }
+
+    #manage-token .accordion-button::after {
+        width: 1rem;
+        height: 1rem;
+        background-size: 1rem;
+    }
+
+    .accordion-button::after {
+        width: 1rem;
+        height: 1rem;
+        background-size: 1rem;
+    }
+}

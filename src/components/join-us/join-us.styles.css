@@ -229,12 +229,17 @@
         padding-right: 30px !important;
     }
 
+    #join-us .join-us-card {
+        height: 320px !important;
+    }
+
     #join-us .join-us-player-wrapper {
         padding: 10px 10px !important;
         margin: 10px 0 !important;
         max-height: 300px;
-        padding-right: 30px !important;
+        padding-right: 0 !important;
         padding-left: 0 !important;
+
     }
 
     #join-us .join-us-player .image-overlay {
@@ -243,12 +248,85 @@
         max-height: 300px;
     }
 
-    .play-btn-wrapper {
+    #join-us .play-btn-wrapper {
         top: -40px !important;
         left: 42%;
     }
 
     #join-us .player-up-card {
         padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    #join-us .player-up-card h3 {
+        font-size: 20px !important;
+    }
+
+    #join-us .player-up-card .header-button {
+        font-size: 16px !important;
+        width: 60%;
+    }
+
+
+    #join-us .join-us-text {
+        padding-right: 0 !important;
+        font-size: 18px !important;
+    }
+
+    #join-us .join-us-card-text img {
+        width: 150px !important;
+    }
+
+    #join-us .join-us-card .header-button {
+        padding: 10px 0 !important;
+    }
+
+    #join-us .play-btn {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    #join-us .play-btn-wrapper {
+        top: -25px !important;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    #join-us .container-fluid {
+        padding: 10px !important;
+        margin: 0 !important;
+    }
+
+    #join-us .container-fluid .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #join-us .join-us-text {
+        margin-top: 10px !important;
+    }
+
+    #join-us .join-us-card-text {
+        margin-top: 10px !important;
+    }
+
+    #join-us .join-us-card h3 {
+        margin-bottom: 20px !important;
+    }
+
+    #join-us .join-us-card .header-button {
+        margin-top: 15px !important;
+        margin-left: 0px !important;
+    }
+
+    #join-us .join-us-player {
+        height: auto !important;
+    }
+
+    #join-us .join-us-player-image {
+        height: auto !important;
     }
 }

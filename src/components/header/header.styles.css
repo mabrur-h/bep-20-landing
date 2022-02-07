@@ -73,14 +73,13 @@
 
     .header-button-wrapper {
         flex-direction: column;
+        margin-top: 40px !important;
     }
 
     .header-button {
         width: 100% !important;
         margin-left: 0px !important;
     }
-
-
 
     .header-button-wrapper .header-button-v2 {
         margin-top: 20px !important;
@@ -97,6 +96,24 @@
 
     #trade .container-fluid {
         margin-left: 0 !important;
+    }
+
+    #trade .trade-text-main {
+        margin: 0 !important;
+    }
+
+    #trade .trade-upper-text {
+        margin-bottom: 0 !important;
+    }
+
+    #trade .trade-down-text {
+        margin-top: 0 !important;
+    }
+
+    #trade .container-fluid > div {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-align: center;
     }
 }
 
